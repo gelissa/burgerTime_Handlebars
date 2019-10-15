@@ -1,7 +1,60 @@
+* {
+  /* font-family: 'Anton', sans-serif; */
+  background-color: #fdbd10;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-gap: 30px;
+}
+
+h1 {
+  font-family: 'Notable', sans-serif;
+  text-align: center;
+  grid-column: 1 / 4;
+  background-color: #ed7902;
+  height: 60px;
+  margin-top: -10px;
+  color: white;
+}
+
+.notEatenHeader {
+  grid-column: 1;
+  grid-row: 3;
+  text-align: center;
+  color: brown;
+}
+
+.notEatenList {
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.eatenHeader {
+  grid-column: 3;
+  grid-row: 3;
+  text-align: center;
+  color: brown;
+}
+
+.eatenList {
+  grid-column: 3;
+  grid-row: 4;
+}
+
+.addBurger {
+  grid-column: 2;
+  text-align: center;
+}
+
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  /* background: #faebd7; */
+  width: 250px;
+  font-family: Arial, Helvetica, sans-serif
 }
 
 .label {
@@ -14,6 +67,30 @@ li {
   background: aqua;
 }
 
+form {
+  /* text-align: center; */
+  /* margin: 0 auto; */
+  grid-column: 2;
+
+}
+
 .form-group {
   margin-bottom: 5px;
+}
+
+img {
+  grid-column: 2;
+  /* grid-row: 2; */
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+}
+
+button {
+  /* width: 130px;
+  height: 40px;
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+  font-size: 16px; */
 }

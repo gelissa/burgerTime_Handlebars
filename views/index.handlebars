@@ -1,8 +1,9 @@
-<h1>Burgers!</h1>
+<div class="container">
+<h1>BURGER TIME!</h1>
 
-<h2>Burgers that are not eaten!</h2>
+<h2 class="notEatenHeader">Burgers that are not eaten!</h2>
 
-<ul>
+<ul class="notEatenList">
   {{#each burgers}}
     {{#unless eaten}}
       {{> burgers/burger-block eaten=true}}
@@ -10,9 +11,11 @@
   {{/each}}
 </ul>
 
-<h2>Burgers that are eaten!</h2>
+<img src="https://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG4114.png" alt="burger">
 
-<ul>
+<h2 class="eatenHeader">Burgers that are eaten!</h2>
+
+<ul class="eatenList">
   {{#each burgers}}
     {{#if eaten}}
       {{> burgers/burger-block eaten=false}}
@@ -20,7 +23,7 @@
   {{/each}}
 </ul>
 
-<h2>Add a Burger</h2>
+<h2 class="addBurger">Add a Burger</h2>
 <form class="create-form">
 
   <div class="form-group">
@@ -36,3 +39,5 @@
 
   <button type="submit">Add Burger</button>
 </form>
+
+</div>
