@@ -25,4 +25,4 @@ The app consists of a single landing page split into 3 columns. The first column
 * [Deployed GitHub](https://gelissa.github.io/burgerTime_Handlebars/)
 * [GitHub Repo](https://github.com/gelissa/burgerTime_Handlebars)
 * [Portfolio](https://gelissa.github.io/gelissaPortfolio/)
-* [Heroku](https://stark-headland-80129.herokuapp.com/)
+* [Heroku](https://evening-escarpment-88978.herokuapp.com/)
